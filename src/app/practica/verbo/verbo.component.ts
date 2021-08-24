@@ -1,6 +1,6 @@
 import { LowerCasePipe, NgIf } from '@angular/common';
 import { Component, OnInit, DoCheck, OnDestroy } from '@angular/core';
-import { verbos } from '../caro/listaelementos';
+
 
 
 @Component({
@@ -13,7 +13,6 @@ export class VerboComponent implements OnInit, DoCheck, OnDestroy {
           public verbo: String;
           public verbo2: String;
           public verbo3: String;
-
           public ejemplo:string;
           public mensaje:string;
           public mensaje2:string;

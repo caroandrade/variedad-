@@ -3,4 +3,4 @@ export var verbos={
     conjugacion:"ar",
     
     
-}
+};
