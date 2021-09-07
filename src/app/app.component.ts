@@ -1,10 +1,14 @@
 import { Component } from '@angular/core';
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
+<<<<<<< Updated upstream
   
 })
 export class AppComponent {
@@ -15,4 +19,9 @@ export class AppComponent {
   ocultarVerbo(){
     this.mostrarVerbo = false;
   }
+=======
+})
+export class AppComponent {
+  title = 'proyecto';
+>>>>>>> Stashed changes
 }

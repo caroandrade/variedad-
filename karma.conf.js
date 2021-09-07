@@ -25,7 +25,11 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
+<<<<<<< Updated upstream
       dir: require('path').join(__dirname, './coverage/segundo'),
+=======
+      dir: require('path').join(__dirname, './coverage/proyecto'),
+>>>>>>> Stashed changes
       subdir: '.',
       reporters: [
         { type: 'html' },
